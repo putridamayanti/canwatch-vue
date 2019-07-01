@@ -1,0 +1,131 @@
+#app {
+    background: transparent !important;
+}
+
+.main-header > .v-toolbar__content {
+    border-bottom: #424242 1px solid;
+}
+/* ==== App Style ==== */
+.drawer {
+    background-color: transparent !important;
+    border-right: #343a40 1px solid;
+}
+.drawer .v-list__tile:hover ,
+.drawer .v-list__tile .v-icon:hover {
+    color: #D81B60;
+}
+.v-list__tile--active .v-list__tile__action:first-of-type .v-icon,
+.v-navigation-drawer>.v-list .v-list__tile--active .v-list__tile__title {
+    color: #FF80AB !important;
+}
+.v-list__group__header--active,
+.v-list__group__header--active  .v-icon {
+    color: #FF80AB !important;
+}
+.v-text-field__details {
+    display: none !important;
+}
+.app-content {
+    width: 100%;
+    position: absolute;
+}
+.app-content.loader {
+    text-align: center;
+    margin-top: 10%;
+}
+.content {
+    padding: 30px !important;
+}
+.loading {
+    text-align: center;
+}
+.app-table {
+    background: transparent;
+    box-shadow: none !important;
+}
+.app-table .v-datatable {
+    background-color: transparent !important;
+}
+.v-datatable__actions {
+    background: transparent !important;
+}
+.card-blue {
+    background-color: #222840 !important;
+}
+.card-header {
+    background-color: transparent !important;
+    border-bottom: #eeeeee 1px solid !important;
+    padding: 0 !important;
+}
+.v-breadcrumbs__item,
+.v-breadcrumbs__item:hover {
+    color: #FF80AB;
+}
+.multiselect__option--highlight,
+.multiselect__option--highlight::after {
+    background: #C33764 !important;
+}
+.multiselect__tags {
+    border-radius: 2px !important;
+    padding-bottom: 10px !important;
+}
+.multiselect__single {
+    margin-top: 5px !important;
+    margin-bottom: 0 !important;
+}
+.multiselect__placeholder,
+.multiselect__input, .multiselect__single {
+    margin-top: 5px !important;
+    margin-bottom: 0 !important;
+}
+/* ==== Main Style ==== */
+.swiper-zoom-container img {
+    width: 100%;
+    min-height: 270px;
+}
+.section-header .v-toolbar__content {
+    border-bottom: #414042 1px solid;
+}
+a:hover {
+    text-decoration: none !important;
+}
+.ql-container {
+    background: #ffffff;
+    height: 400px !important;
+}
+.ql-toolbar {
+    background: #ffffff;
+}
+.thumbnail-video {
+    width: 150px;
+    margin: 10px;
+}
+.video {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+.video iframe {
+    width: 880px;
+    height: 495px;
+    margin: auto;
+}
+.video-play {
+    text-align: center;
+}
+.video-play img {
+    position: relative;
+    top: 50%;
+}
+.video-play iframe {
+    width: 800px;
+    height: 450px;
+    margin: auto;
+    background:url('/img/loading2.svg') center center no-repeat;
+}
+.video-play iframe video {
+    width: 100% !important;
+}
+.list a {
+    height: auto !important;
+}
